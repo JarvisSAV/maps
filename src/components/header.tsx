@@ -9,12 +9,11 @@ export default function Header() {
   }
 
   return (
-    <header className="[grid-area:header] bg-sky-500 mb-2 gap-2 flex items-center">
+    <header className="[grid-area:header] mb-2 gap-2 flex items-center">
       <button
         onClick={handleToggleAside}
         className="cursor-pointer text-red-500 text-2xl font-bold"
       >&times;</button>
-      Header
     </header>
   )
 }
